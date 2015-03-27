@@ -13,6 +13,7 @@ describe provider_class do
       :name => "awesome-db_securitygroup",
       :ensure => 'present',
       :db_security_group_description => 'DB Security Group',
+      :region => 'us-west-1',
     )
   }
 
